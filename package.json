@@ -1,0 +1,33 @@
+{
+  "name": "acctual-ocr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abu-jeylani/acctual-ocr.git"
+  },
+  "keywords": [
+    "ocr",
+    "acctual",
+    "invoice",
+    "ap"
+  ],
+  "author": "abu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abu-jeylani/acctual-ocr/issues"
+  },
+  "homepage": "https://github.com/abu-jeylani/acctual-ocr#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.22",
+    "pdf-parse": "^1.1.1",
+    "tesseract.js": "^4.0.6"
+  }
+}
